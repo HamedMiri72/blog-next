@@ -1,9 +1,19 @@
-import Image from "next/image";
+
+import CartList from "@/components/CartList";
+import CategoryList from "@/components/CategoryList";
+import Featured from "@/components/Featured";
+import Menu from "@/components/Menu";
+
 
 export default function Home() {
   return (
-    <>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores aut accusamus earum dolor nesciunt voluptatum, beatae aspernatur nisi laboriosam repudiandae cumque fugiat vero eius. Aut libero debitis eaque odio!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores aut accusamus earum dolor nesciunt voluptatum, beatae aspernatur nisi laboriosam repudiandae cumque fugiat vero eius. Aut libero debitis eaque odio!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores aut accusamus earum dolor nesciunt voluptatum, beatae aspernatur nisi laboriosam repudiandae cumque fugiat vero eius. Aut libero debitis eaque odio!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores aut accusamus earum dolor nesciunt voluptatum, beatae aspernatur nisi laboriosam repudiandae cumque fugiat vero eius. Aut libero debitis eaque odio!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores aut accusamus earum dolor nesciunt voluptatum, beatae aspernatur nisi laboriosam repudiandae cumque fugiat vero eius. Aut libero debitis eaque odio!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores aut accusamus earum dolor nesciunt voluptatum, beatae aspernatur nisi laboriosam repudiandae cumque fugiat vero eius. Aut libero debitis eaque odio!
-    </>
+    <div>
+      <Featured/>
+      <CategoryList/>
+      <div>
+        <CartList/>
+        <Menu/>
+      </div>
+    </div>
   );
 }
