@@ -33,7 +33,7 @@ export default function AuthLinks() {
       </button>
 
       {open && (
-        <div className="flex flex-col absolute top-[100px] left-0 w-full h-[calc(100vh-100px)] items-center justify-center gap-[50px] text-[36px] transition duration-300">
+        <div className="flex flex-col absolute top-[100px] left-0 w-full h-[calc(100vh-100px)] items-center justify-center gap-[50px] text-[36px] transition duration-300 sm:hidden">
           <Link href={"/"}>HomePage</Link>
           <Link href={"/"}>Contact</Link>
           <Link href={"/"}>About</Link>
