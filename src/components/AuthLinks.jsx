@@ -26,14 +26,14 @@ export default function AuthLinks() {
         onClick={() => SetOpen(!open)}
       >
         <div className="grid justify-items-center gap-1.5">
-          <span className="h-[2px] w-full rounded-full bg-black"></span>
-          <span className="h-[2px] w-full rounded-full bg-black"></span>
-          <span className="h-[2px] w-full rounded-full bg-black"></span>
+          <span className="h-[2px] w-full rounded-full bg-black dark:bg-white"></span>
+          <span className="h-[2px] w-full rounded-full bg-black dark:bg-white"></span>
+          <span className="h-[2px] w-full rounded-full  bg-black dark:bg-white"></span>
         </div>
       </button>
 
       {open && (
-        <div>
+        <div className="flex flex-col absolute top-[100px] left-0 w-full h-[calc(100vh-100px)] items-center justify-center gap-[50px] text-[36px] transition duration-300">
           <Link href={"/"}>HomePage</Link>
           <Link href={"/"}>Contact</Link>
           <Link href={"/"}>About</Link>
