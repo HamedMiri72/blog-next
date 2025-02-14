@@ -15,7 +15,7 @@ export default function Navbar() {
           <Image src="/youtube.png" alt='' width={24} height={24}/>
         </div>
         <div className='flex-1 text-left font-bold text-[24px] lg:text-center xl:text-[36px]'>Hamedblog.</div>
-        <div className='flex flex-1 items-center ml-[12px] gap-[12px] xl:gap-[15px] text-[18px] xl:text-[20px]'>
+        <div className='flex justify-end flex-1 items-center ml-[12px] gap-[12px] xl:gap-[15px] text-[18px] xl:text-[20px]'>
           <ThemeTogle/>
           <div className='hidden sm:inline-flex gap-[12px] xl:gap-[15px]'>
 
